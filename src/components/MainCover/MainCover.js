@@ -2,9 +2,6 @@ import React from "react";
 import "./MainCover.css"
 import { Container, Row, Col } from 'reactstrap';
 
-
-
-
 class MainCover extends React.Component {
 
   render(){

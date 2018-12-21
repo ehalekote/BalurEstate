@@ -13,47 +13,30 @@
     position: relative;
 }
 
-@media only screen and (max-width: 1800px){
-    .homeLogo{
-        max-width: 40%;
+.homeLogo{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%); 
+}
 
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%,-50%); 
+/* Laptop and Up */
+@media (min-width: 1025px){
+    .homeLogo{
+        max-width: 45%;
     }
 }
 
-@media only screen and (max-width: 1800px){
-    .homeLogo{
-        max-width: 40%;
-
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%,-50%); 
-    }
-}
-
-@media only screen and (max-width: 1200px){
+/* Tablets */
+@media only screen and (max-width: 1024px){
     .homeLogo{
         max-width: 55%;
-
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%,-50%); 
     }
 }
 
-
-@media only screen and (max-width: 736px){
+/* Phones */
+@media only screen and (max-width: 767px){
     .homeLogo{
         max-width: 75%;
-
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%,-50%); 
     }
 }
