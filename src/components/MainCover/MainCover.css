@@ -1,0 +1,59 @@
+.backgroundCover {
+    /* The image used */
+    background-image: url("https://github.com/ehalekote/BalurEstate/blob/master/img/hero_1.JPG?raw=true");
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+@media only screen and (max-width: 1800px){
+    .homeLogo{
+        max-width: 40%;
+
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%); 
+    }
+}
+
+@media only screen and (max-width: 1800px){
+    .homeLogo{
+        max-width: 40%;
+
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%); 
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .homeLogo{
+        max-width: 55%;
+
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%); 
+    }
+}
+
+
+@media only screen and (max-width: 736px){
+    .homeLogo{
+        max-width: 75%;
+
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%); 
+    }
+}
