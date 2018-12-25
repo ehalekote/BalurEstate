@@ -1,8 +1,12 @@
 import React from "react";
 import "./Footer.css"
 import { Container, Row, Col } from 'reactstrap';
-
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faTripadvisor} from '@fortawesome/free-brands-svg-icons' 
 import Map from "./Map"
+
+library.add(faFacebook, faTripadvisor)
 
 class Footer extends React.Component {
 
@@ -12,10 +16,10 @@ class Footer extends React.Component {
         <Container >
             <Row>
                 <Col>
-                    Find us on TA & FB!
+                    Find us on &nbsp; <a href="https://www.facebook.com/pages/Linger-Balur-Estate/245012702195985"><FontAwesomeIcon icon={['fab', 'facebook']} size="lg" /></a> &nbsp; & &nbsp; <a href="https://www.tripadvisor.com/Hotel_Review-g1584395-d1994921-Reviews-Linger_at_Balur_Estate-Mudigere_Chikkamagaluru_District_Karnataka.html"><FontAwesomeIcon icon={['fab', 'tripadvisor']} size="lg" color="green"/></a>
                     <br/>
                     <br/>
-                    Images and video courtesy of <span className="title">Contista Productions</span>
+                    Images and video courtesy of <span className="title"><a style={{color:"white"}} href="https://www.contistaproductions.com">Contista Productions</a></span>
                 </Col>
                 <Col>
                     <p><i><span className="title">Address:</span></i> <br/>Balur Estate <br/> Javali Post <br/> Chickmaglur district <br/> Karnataka, India </p>
