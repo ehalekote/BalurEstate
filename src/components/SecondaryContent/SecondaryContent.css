@@ -1,0 +1,60 @@
+.imgGrid img {
+ 	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* Laptop and Up */
+@media (min-width: 1025px){
+    .SecondaryContent{
+	margin: 1%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	}
+
+	.SecondaryContent p {
+		font-size: 110%;
+	}
+
+	.SecondaryContent h2 {
+		font-size: 220%;
+		text-decoration: underline;
+	}
+}
+
+/* Tablets */
+@media only screen and (max-width: 1024px){
+    .SecondaryContent{
+	margin: 2%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	}
+
+	.SecondaryContent p {
+		font-size: 105%;
+	}
+
+	.SecondaryContent h2 {
+		font-size: 220%;
+		text-decoration: underline;
+	}
+}
+
+/* Phones */
+@media only screen and (max-width: 767px){
+    .SecondaryContent{
+	margin: 3%;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	}
+
+	.SecondaryContent p {
+		font-size: 100%;
+	}
+
+	.SecondaryContent h2 {
+		font-size: 220%;
+		text-decoration: underline;
+	}
+}
+

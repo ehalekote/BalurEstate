@@ -1,0 +1,50 @@
+.secondaryBackgroundCover {
+    /* The image used */
+    /*background-image: url("https://github.com/ehalekote/BalurEstate/blob/master/img/coffee_dry.JPG?raw=true");*/
+
+    /* Full height */
+    height: 40vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    text-align: center;
+}
+
+.secondaryHomeLogo{
+    position:absolute;
+    left:50%;
+    top:57%;
+    transform: translate(-50%,-50%); 
+
+    color: white;
+
+}
+
+/* Laptop and Up */
+@media (min-width: 1025px){
+    .secondaryHomeLogo{
+        max-width: 40%;
+        font-size: 700%;
+    }
+}
+
+/* Tablets */
+@media only screen and (max-width: 1024px){
+    .secondaryHomeLogo{
+        max-width: 50%;
+        font-size: 550%;
+    }
+}
+
+/* Phones */
+@media only screen and (max-width: 767px){
+    .secondaryHomeLogo{
+        max-width: 70%;
+        font-size: 450%;
+    }
+}

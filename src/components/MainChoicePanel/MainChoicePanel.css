@@ -1,4 +1,9 @@
 .MainChoicePanel{
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.card{
+	margin-top:2%; 
+
 }
