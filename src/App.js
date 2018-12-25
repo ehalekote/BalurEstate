@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+
 //Components
 import Navbar from "./components/Navbar/Navbar";
 import MainCover from "./components/MainCover/MainCover";
@@ -11,6 +12,7 @@ import MainVideo from "./components/MainVideo/MainVideo"
 import SecondaryCover from "./components/SecondaryCover/SecondaryCover";
 import SecondaryContent from "./components/SecondaryContent/SecondaryContent";
 import PointsOfInterest from "./components/PointsOfInterest/PointsOfInterest";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 
 class App extends Component {
@@ -107,9 +109,10 @@ class App extends Component {
     let col1_Accomodation=["http://www.balurestate.com/wp-content/uploads/IMG_0249-768x423.jpeg","http://www.balurestate.com/wp-content/uploads/IMG_8997-768x512.jpg","http://www.balurestate.com/wp-content/uploads/DSC06939-510x510.jpg"]
     let col2_Accomodation=["http://www.balurestate.com/wp-content/uploads/DSC06933.jpg","http://www.balurestate.com/wp-content/uploads/DSC06920.jpg"]
     let col3_Accomodation=["https://github.com/ehalekote/BalurEstate/blob/master/img/bg-masthead.jpg?raw=true","https://github.com/ehalekote/BalurEstate/blob/master/img/chimney_room.JPG?raw=true"]
-    
+
     return (
       <Router>
+      <ScrollToTop>
         <div className="App">
         
         <Route path="/" component={Navbar} />
@@ -154,6 +157,7 @@ class App extends Component {
         <Route path="/" component={Footer} />
 
         </div>
+        </ScrollToTop>
       </Router>
     );
   }

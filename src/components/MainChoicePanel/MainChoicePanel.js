@@ -3,19 +3,45 @@ import "./MainChoicePanel.css"
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Redirect } from 'react-router';
 
 
 class MainChoicePanel extends React.Component {
-    constuctor() {
+    constructor(props) {
+        super(props);
         this.routeChange = this.routeChange.bind(this);
+        this.state = {
+            redirect_Coffee:false,
+            redirect_Conservation:false,
+            redirect_Accomodation:false
+        };
     }
 
     routeChange(link){
-        let path = '/'+ link;
-        this.props.history.push(path);
+        if(link=="Coffee"){
+            this.setState({redirect_Coffee: true});
+        }
+        else if(link=="Conservation"){
+            this.setState({redirect_Conservation: true});
+        }
+        else if(link=="Accomodation"){
+            this.setState({redirect_Accomodation: true});
+        }
     }
 
   render(){
+    
+    if (this.state.redirect_Coffee) {
+        return <Redirect push to="/Coffee" />;
+    }
+    else if(this.state.redirect_Conservation){
+        return <Redirect push to="/Conservation" />;   
+    }
+    else if(this.state.redirect_Accomodation){
+        return <Redirect push to="/Accomodation" />;
+    }
+
+
     return (
       <Container className="MainChoicePanel">
         <Row>
