@@ -28,7 +28,7 @@ export default class component extends React.Component {
     return (
       <div>
         <Navbar fixed="top" color="light" light expand="md">
-          <a href="/"><img src="https://github.com/ehalekote/BalurEstate/blob/master/img/BalurBirdLogo.png?raw=true" style={{maxHeight:"30px", paddingRight:'6px'}}/></a>        
+          <a href="/"><img src="/imgs/BalurBirdLogo.png" style={{maxHeight:"30px", paddingRight:'6px'}}/></a>        
           <NavbarBrand href="/">Balur Estate</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

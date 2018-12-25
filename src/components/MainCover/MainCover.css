@@ -1,6 +1,6 @@
 .backgroundCover {
     /* The image used */
-    background-image: url("https://github.com/ehalekote/BalurEstate/blob/master/img/hero_1.JPG?raw=true");
+    background-image: url("/imgs/hero_1.JPG");
 
     /* Full height */
     height: 100vh;

@@ -42,9 +42,7 @@ class App extends Component {
       </div>
     );
 
-    let col1_Coffee=["https://github.com/ehalekote/BalurEstate/blob/master/img/demo-image-01.jpg?raw=true","https://media-cdn.tripadvisor.com/media/photo-o/08/ba/3b/b3/photo9jpg.jpg","http://www.balurestate.com/wp-content/uploads/DSC07292-510x510.jpg"]
-    let col2_Coffee=["http://www.balurestate.com/wp-content/uploads/DSC06999-510x510.jpg","https://github.com/ehalekote/BalurEstate/blob/master/img/slider-6.JPG?raw=true"]
-    let col3_Coffee=["https://media-cdn.tripadvisor.com/media/photo-o/05/de/38/54/linger-at-balur-estate.jpg"]
+    let col1_Coffee=["/imgs/demo-image-01.jpg","/imgs/photo9jpg.jpg","/imgs/DSC07292-510x510.jpg"]
 
   {/*Conservation*/}
     let text_Conservation = (
@@ -80,9 +78,8 @@ class App extends Component {
     );
 
     
-    let col1_Conservation=["http://www.balurestate.com/wp-content/uploads/looking-for-a-suitable-place-above-the-water-to-make-a-nest-of-foam-and-lay-eggs_s-510x510.jpg","http://www.balurestate.com/wp-content/uploads/black-pepper-creepers-on-silver-oak-tree-trunks-below-are-coffee-plants_s-510x510.jpg"]
-    let col2_Conservation=["http://www.balurestate.com/wp-content/uploads/the-beginning-of-the-monsoon-in-june_s-510x510.jpg","https://media-cdn.tripadvisor.com/media/photo-w/01/c2/f0/7b/balur-estate.jpg"]
-    let col3_Conservation=["http://www.balurestate.com/wp-content/uploads/9cbbe20aec30396e18eb7751d69f7825.jpg",]
+    let col1_Conservation=["/imgs/conservation1.jpg","/imgs/conservation3.jpg"]
+    
   {/*Accomodation*/}
     let text_Accomodation = (
       <div>
@@ -106,10 +103,8 @@ class App extends Component {
     );
 
     
-    let col1_Accomodation=["http://www.balurestate.com/wp-content/uploads/IMG_0249-768x423.jpeg","http://www.balurestate.com/wp-content/uploads/IMG_8997-768x512.jpg","http://www.balurestate.com/wp-content/uploads/DSC06939-510x510.jpg"]
-    let col2_Accomodation=["http://www.balurestate.com/wp-content/uploads/DSC06933.jpg","http://www.balurestate.com/wp-content/uploads/DSC06920.jpg"]
-    let col3_Accomodation=["https://github.com/ehalekote/BalurEstate/blob/master/img/bg-masthead.jpg?raw=true","https://github.com/ehalekote/BalurEstate/blob/master/img/chimney_room.JPG?raw=true"]
-
+    let col1_Accomodation=["/imgs/side_shot_house.jpeg","/imgs/img_1.JPG","/imgs/DSC06939-510x510.jpg"]
+    
     return (
       <Router>
       <ScrollToTop>
@@ -125,31 +120,31 @@ class App extends Component {
         {/* Coffee */}
         <Route 
                   path="/Coffee" exact 
-                  render={(props) => <SecondaryCover text="Coffee" cover="https://github.com/ehalekote/BalurEstate/blob/master/img/coffee_dry.JPG?raw=true" />}
+                  render={(props) => <SecondaryCover text="Coffee" cover="/imgs/coffee_dry.JPG" />}
         />
         <Route 
                   path="/Coffee" exact 
-                  render={(props) => <SecondaryContent text={text_Coffee} col1={col1_Coffee} col2={col2_Coffee} col3={col3_Coffee} />}
+                  render={(props) => <SecondaryContent text={text_Coffee} col1={col1_Coffee} />}
         />
       
 
         {/* Conservation */}
         <Route 
                   path="/Conservation" exact 
-                  render={(props) => <SecondaryCover text="Conservation" cover="https://github.com/ehalekote/BalurEstate/blob/master/img/conservation3.jpg?raw=true" />}
+                  render={(props) => <SecondaryCover text="Conservation" cover="/imgs/conservation3.jpg" />}
         />
         <Route 
                   path="/Conservation" exact 
-                  render={(props) => <SecondaryContent text={text_Conservation} col1={col1_Conservation} col2={col2_Conservation} col3={col3_Conservation} />}
+                  render={(props) => <SecondaryContent text={text_Conservation} col1={col1_Conservation}  />}
         />
         {/* Accomodation */}
         <Route 
                   path="/Accomodation" exact 
-                  render={(props) => <SecondaryCover text="Accomodation" cover="https://github.com/ehalekote/BalurEstate/blob/master/img/Balur%201.JPG?raw=true" />}
+                  render={(props) => <SecondaryCover text="Accomodation" cover="/imgs/night.jpeg" />}
         />
         <Route 
                   path="/Accomodation" exact 
-                  render={(props) => <SecondaryContent text={text_Accomodation} col1={col1_Accomodation} col2={col2_Accomodation} col3={col3_Accomodation} />}
+                  render={(props) => <SecondaryContent text={text_Accomodation} col1={col1_Accomodation}  />}
         />
 
         <Route path="/Accomodation" component={PointsOfInterest} />

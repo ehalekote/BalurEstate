@@ -7,7 +7,7 @@ class MainCover extends React.Component {
   render(){
     return (
       <div className="backgroundCover">
-        <img className="homeLogo" src="https://github.com/ehalekote/BalurEstate/blob/master/img/MainLogoFront.png?raw=true"/>
+        <img className="homeLogo" src="/imgs/MainLogoFront.png"/>
       </div>
     );
   }
