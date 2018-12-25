@@ -7,7 +7,7 @@ class PointsOfInterest extends React.Component {
   render(){
     return (
       <div className="PointsOfInterest">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Dnw-y1xELalYQJsqzFBbkm1spvrFYJvB" width="640" height="480"></iframe>
+      	<iframe src="https://www.google.com/maps/d/embed?mid=1Dnw-y1xELalYQJsqzFBbkm1spvrFYJvB" width="640" height="480"></iframe>
       </div>
     );
   }

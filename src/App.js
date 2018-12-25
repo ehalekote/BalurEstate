@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, hashHistory } from "react-router-dom";
+import { HashRouter } from 'react-router-dom'
+
 
 
 //Components
@@ -106,7 +108,7 @@ class App extends Component {
     let col1_Accomodation=["/imgs/side_shot_house.jpeg","/imgs/img_1.JPG","/imgs/DSC06939-510x510.jpg"]
     
     return (
-      <Router>
+      <HashRouter>
       <ScrollToTop>
         <div className="App">
         
@@ -153,7 +155,7 @@ class App extends Component {
 
         </div>
         </ScrollToTop>
-      </Router>
+      </HashRouter>
     );
   }
 }
