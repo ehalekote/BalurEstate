@@ -113,17 +113,17 @@ class App extends Component {
         <Route path="/" component={Navbar} />
 
         {/* Home */}
-        <Route path="/BalurEstate/" exact component={MainCover} />
-        <Route path="/BalurEstate/" exact component={MainChoicePanel} />
-        <Route path="/BalurEstate/" exact component={MainVideo} />
+        <Route path="/BalurEstate" exact component={MainCover} />
+        <Route path="/BalurEstate" exact component={MainChoicePanel} />
+        <Route path="/BalurEstate" exact component={MainVideo} />
 
         {/* Coffee */}
         <Route 
-                  path="/Coffee" exact 
+                  path="BalurEstate/Coffee" exact 
                   render={(props) => <SecondaryCover text="Coffee" cover="/imgs/coffee_dry.JPG" />}
         />
         <Route 
-                  path="/Coffee" exact 
+                  path="BalurEstate/Coffee" exact 
                   render={(props) => <SecondaryContent text={text_Coffee} col1={col1_Coffee} />}
         />
       

@@ -35,7 +35,7 @@ class MainChoicePanel extends React.Component {
   render(){
     
     if (this.state.redirect_Coffee) {
-        return <Redirect push to="/Coffee" />;
+        return <Redirect push to="BalurEstate/Coffee" />;
     }
     else if(this.state.redirect_Conservation){
         return <Redirect push to="/Conservation" />;   
