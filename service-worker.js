@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BalurEstate/precache-manifest.2b5e90edf00993685c1ec8cde0688cdd.js"
+  "/BalurEstate/precache-manifest.3d6396881e35088f4561b1884baedfac.js"
 );
 
 workbox.clientsClaim();
