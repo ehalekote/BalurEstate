@@ -3,6 +3,22 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
+//Images
+import coffee_dry from "./imgs/coffee_dry.JPG"
+import conservation3 from "./imgs/conservation3.jpg"
+import night from "./imgs/night.jpeg"
+import coffeeFlower from "./imgs/coffeeFlower.jpg"
+import coffeeHands from "./imgs/coffeeHands.jpg"
+import coffeeCups from "./imgs/coffeeCups.jpg"
+import conservation1  from "./imgs/conservation1.jpg"
+import waterfall  from "./imgs/waterfall.jpg"
+import leaves  from "./imgs/leaves.jpg"
+import sideShot  from "./imgs/sideShot.jpeg"
+import windowShot  from "./imgs/windowShot.JPG"
+import hall  from "./imgs/hall.jpg"
+
+
+
 //Components
 import Navbar from "./components/Navbar/Navbar";
 import MainCover from "./components/MainCover/MainCover";
@@ -42,7 +58,7 @@ class App extends Component {
       </div>
     );
 
-    let col1_Coffee=["/imgs/DSC07292-510x510.jpg","/imgs/demo-image-01.jpg","/imgs/photo9jpg.jpg"]
+    let col1_Coffee=[coffeeFlower,coffeeHands,coffeeCups]
 
   {/*Conservation*/}
     let text_Conservation = (
@@ -78,7 +94,7 @@ class App extends Component {
     );
 
     
-    let col1_Conservation=["/imgs/conservation1.jpg","/imgs/waterfall.jpg","/imgs/leaves.jpg"]
+    let col1_Conservation=[conservation1,waterfall,leaves]
     
   {/*Accomodation*/}
     let text_Accomodation = (
@@ -103,7 +119,7 @@ class App extends Component {
     );
 
     
-    let col1_Accomodation=["/imgs/side_shot_house.jpeg","/imgs/img_1.JPG","/imgs/DSC06939-510x510.jpg"]
+    let col1_Accomodation=[sideShot, windowShot, hall]
     
     return (
       <Router>
@@ -120,7 +136,7 @@ class App extends Component {
         {/* Coffee */}
         <Route 
                   path="/Coffee" exact 
-                  render={(props) => <SecondaryCover text="Coffee" cover="/imgs/coffee_dry.JPG" />}
+                  render={(props) => <SecondaryCover text="Coffee" cover={coffee_dry} />}
         />
         <Route 
                   path="/Coffee" exact 
@@ -131,7 +147,7 @@ class App extends Component {
         {/* Conservation */}
         <Route 
                   path="/Conservation" exact 
-                  render={(props) => <SecondaryCover text="Conservation" cover="/imgs/conservation3.jpg" />}
+                  render={(props) => <SecondaryCover text="Conservation" cover={conservation3} />}
         />
         <Route 
                   path="/Conservation" exact 
@@ -140,7 +156,7 @@ class App extends Component {
         {/* Accomodation */}
         <Route 
                   path="/Accomodation" exact 
-                  render={(props) => <SecondaryCover text="Accomodation" cover="/imgs/night.jpeg" />}
+                  render={(props) => <SecondaryCover text="Accomodation" cover={night} />}
         />
         <Route 
                   path="/Accomodation" exact 

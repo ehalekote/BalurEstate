@@ -16,6 +16,7 @@ class SecondaryContent extends React.Component {
         </div>
       )
     }
+    
     return col
   }
 
