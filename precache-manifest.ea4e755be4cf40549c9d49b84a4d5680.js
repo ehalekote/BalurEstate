@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "82954581c6362acf07f2",
+    "revision": "f6f4c38a36f471b69557",
     "url": "/BalurEstate/static/css/main.c55c09c5.chunk.css"
   },
   {
-    "revision": "82954581c6362acf07f2",
-    "url": "/BalurEstate/static/js/main.82954581.chunk.js"
+    "revision": "f6f4c38a36f471b69557",
+    "url": "/BalurEstate/static/js/main.f6f4c38a.chunk.js"
   },
   {
     "revision": "a8734eed009a4b8b94b6",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/videoBackground.5930cf80.png"
   },
   {
-    "revision": "d92d93ada5e13934505e5ac9822c98dc",
+    "revision": "9319e4986ae0f463e9a9f8a3b5931bab",
     "url": "/BalurEstate/index.html"
   }
 ];

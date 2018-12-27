@@ -1,7 +1,7 @@
 {
   "main.css": "/BalurEstate/static/css/main.c55c09c5.chunk.css",
-  "main.js": "/BalurEstate/static/js/main.82954581.chunk.js",
-  "main.js.map": "/BalurEstate/static/js/main.82954581.chunk.js.map",
+  "main.js": "/BalurEstate/static/js/main.f6f4c38a.chunk.js",
+  "main.js.map": "/BalurEstate/static/js/main.f6f4c38a.chunk.js.map",
   "static/css/1.c07ad97b.chunk.css": "/BalurEstate/static/css/1.c07ad97b.chunk.css",
   "static/js/1.a8734eed.chunk.js": "/BalurEstate/static/js/1.a8734eed.chunk.js",
   "static/js/1.a8734eed.chunk.js.map": "/BalurEstate/static/js/1.a8734eed.chunk.js.map",
@@ -17,6 +17,6 @@
   "static/css/main.c55c09c5.chunk.css.map": "/BalurEstate/static/css/main.c55c09c5.chunk.css.map",
   "static/css/1.c07ad97b.chunk.css.map": "/BalurEstate/static/css/1.c07ad97b.chunk.css.map",
   "index.html": "/BalurEstate/index.html",
-  "precache-manifest.502e114c77258eb56c59f87a8f756b56.js": "/BalurEstate/precache-manifest.502e114c77258eb56c59f87a8f756b56.js",
+  "precache-manifest.ea4e755be4cf40549c9d49b84a4d5680.js": "/BalurEstate/precache-manifest.ea4e755be4cf40549c9d49b84a4d5680.js",
   "service-worker.js": "/BalurEstate/service-worker.js"
 }
