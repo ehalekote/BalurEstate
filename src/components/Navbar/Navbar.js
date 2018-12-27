@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router';
 import BalurBirdLogo from "./../../imgs/BalurBirdLogo.png";
 import {
   Collapse,
@@ -14,8 +15,13 @@ export default class component extends React.Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
+    this.routeChange = this.routeChange.bind(this);
+
     this.state = {
-      isOpen: false
+      isOpen: false,
+      redirect_Coffee:false,
+      redirect_Conservation:false,
+      redirect_Accomodation:false
     };
   }
 
@@ -25,7 +31,30 @@ export default class component extends React.Component {
     });
   }
 
+  routeChange(link){
+    if(link=="Coffee"){
+        this.setState({redirect_Coffee: true});
+    }
+    else if(link=="Conservation"){
+        this.setState({redirect_Conservation: true});
+    }
+    else if(link=="Accomodation"){
+        this.setState({redirect_Accomodation: true});
+    }
+  }
+
   render() {
+
+    if (this.state.redirect_Coffee) {
+        return <Redirect push to="BalurEstate/Coffee" />;
+    }
+    else if(this.state.redirect_Conservation){
+        return <Redirect push to="/Conservation" />;   
+    }
+    else if(this.state.redirect_Accomodation){
+        return <Redirect push to="/Accomodation" />;
+    }
+
     return (
       <div>
         <Navbar fixed="top" color="light" light expand="md">
@@ -35,18 +64,19 @@ export default class component extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Coffee"><span style={{fontSize:"22px"}}>Coffee</span></NavLink>
+                <NavLink onClick={() => {this.routeChange('Coffee')}}><span style={{fontSize:"22px"}}>Coffee</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Conservation"><span style={{fontSize:"22px"}}>Conservation</span></NavLink>
+                <NavLink onClick={() => {this.routeChange('Conservation')}}><span style={{fontSize:"22px"}}>Conservation</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Accomodation"><span style={{fontSize:"22px"}}>Accomodation</span></NavLink>
+                <NavLink onClick={() => {this.routeChange('Accomodation')}}><span style={{fontSize:"22px"}}>Accomodation</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
       </div>
     );
+
   }
 }
