@@ -1,7 +1,7 @@
 {
   "main.css": "/BalurEstate/static/css/main.c55c09c5.chunk.css",
-  "main.js": "/BalurEstate/static/js/main.ac13b258.chunk.js",
-  "main.js.map": "/BalurEstate/static/js/main.ac13b258.chunk.js.map",
+  "main.js": "/BalurEstate/static/js/main.82954581.chunk.js",
+  "main.js.map": "/BalurEstate/static/js/main.82954581.chunk.js.map",
   "static/css/1.c07ad97b.chunk.css": "/BalurEstate/static/css/1.c07ad97b.chunk.css",
   "static/js/1.a8734eed.chunk.js": "/BalurEstate/static/js/1.a8734eed.chunk.js",
   "static/js/1.a8734eed.chunk.js.map": "/BalurEstate/static/js/1.a8734eed.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/conservation3.jpg": "/BalurEstate/static/media/conservation3.c8beedcd.jpg",
   "static/media/windowShot.JPG": "/BalurEstate/static/media/windowShot.b01ee971.JPG",
   "static/media/videoBackground.png": "/BalurEstate/static/media/videoBackground.5930cf80.png",
-  "static/css/1.c07ad97b.chunk.css.map": "/BalurEstate/static/css/1.c07ad97b.chunk.css.map",
   "static/css/main.c55c09c5.chunk.css.map": "/BalurEstate/static/css/main.c55c09c5.chunk.css.map",
+  "static/css/1.c07ad97b.chunk.css.map": "/BalurEstate/static/css/1.c07ad97b.chunk.css.map",
   "index.html": "/BalurEstate/index.html",
-  "precache-manifest.3d6396881e35088f4561b1884baedfac.js": "/BalurEstate/precache-manifest.3d6396881e35088f4561b1884baedfac.js",
+  "precache-manifest.502e114c77258eb56c59f87a8f756b56.js": "/BalurEstate/precache-manifest.502e114c77258eb56c59f87a8f756b56.js",
   "service-worker.js": "/BalurEstate/service-worker.js"
 }
