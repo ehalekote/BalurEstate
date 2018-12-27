@@ -1,7 +1,6 @@
 .imgGrid img {
  	width: 100%;
 	background-position: center center;
-	background-repeat: no-repeat;
 }
 
 /* Laptop and Up */
@@ -18,7 +17,7 @@
 
 	.SecondaryContent h2 {
 		font-size: 220%;
-		text-decoration: underline;
+		font-style: italic;
 	}
 }
 
@@ -36,7 +35,8 @@
 
 	.SecondaryContent h2 {
 		font-size: 220%;
-		text-decoration: underline;
+		font-style: italic;
+
 	}
 }
 
@@ -54,7 +54,7 @@
 
 	.SecondaryContent h2 {
 		font-size: 220%;
-		text-decoration: underline;
+		font-style: italic;
 	}
 }
 

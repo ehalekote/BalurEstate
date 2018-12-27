@@ -42,7 +42,7 @@ class App extends Component {
       </div>
     );
 
-    let col1_Coffee=["/imgs/demo-image-01.jpg","/imgs/photo9jpg.jpg","/imgs/DSC07292-510x510.jpg"]
+    let col1_Coffee=["/imgs/DSC07292-510x510.jpg","/imgs/demo-image-01.jpg","/imgs/photo9jpg.jpg"]
 
   {/*Conservation*/}
     let text_Conservation = (
@@ -78,7 +78,7 @@ class App extends Component {
     );
 
     
-    let col1_Conservation=["/imgs/conservation1.jpg","/imgs/conservation3.jpg"]
+    let col1_Conservation=["/imgs/conservation1.jpg","/imgs/waterfall.jpg","/imgs/leaves.jpg"]
     
   {/*Accomodation*/}
     let text_Accomodation = (

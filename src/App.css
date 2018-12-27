@@ -1,3 +1,4 @@
 html,body{
     font-family: 'Lora', serif !important;
+    overflow-x: hidden;
 }

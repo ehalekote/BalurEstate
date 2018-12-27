@@ -1,12 +1,13 @@
 import React from "react";
 import "./MainVideo.css"
 import { Container, Row, Col } from 'reactstrap';
+import videoBackground from "./../../imgs/videoBackground.png"
 
 class MainVideo extends React.Component {
 
   render(){
     return (
-      <div className="MainVideo">
+      <div className="MainVideo" style={{backgroundImage: `url(${videoBackground})`}}>
 
       	<Row>
       		<Col xs="1" md="2" lg="3">

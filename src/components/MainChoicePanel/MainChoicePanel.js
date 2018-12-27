@@ -4,6 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button } from 'reactstrap';
 import { Redirect } from 'react-router';
+import coffeeHands from "./../../imgs/coffeeHands.jpg"
+import conservation3 from "./../../imgs/conservation3.jpg"
+import windowShot from "./../../imgs/windowShot.JPG"
 
 
 class MainChoicePanel extends React.Component {
@@ -47,7 +50,7 @@ class MainChoicePanel extends React.Component {
         <Row>
             <Col xl="4" lg="6" >
                 <Card className="card">
-                    <CardImg top width="100%" src="/imgs/demo-image-01.jpg" />
+                    <CardImg top width="100%" src={coffeeHands} />
                     <CardBody>
                         <CardTitle>Coffee</CardTitle>
                         <CardText>Chikmagalur was the scene of all the action that saw India getting introduced to coffee. In the 17th century A.D. coffee first arrived in India when Baba Budan brought 7 seeds from Mocha, Yemen.<br/><br/></CardText>
@@ -57,7 +60,7 @@ class MainChoicePanel extends React.Component {
             </Col>
             <Col xl="4" lg="6">
                 <Card className="card">
-                    <CardImg top width="100%" src="/imgs/conservation3.jpg" />
+                    <CardImg top width="100%" src={conservation3} />
                     <CardBody>
                         <CardTitle>Conservation</CardTitle>
                         <CardText>Balur Estate lies amongst the Sahyadri Range of the Western Ghats, recently declared a UNESCO World Heritage site and home to a huge variety of flora and fauna.<br/><br/></CardText>
@@ -67,7 +70,7 @@ class MainChoicePanel extends React.Component {
             </Col>
             <Col xl="4" lg="12">
                 <Card className="card">
-                    <CardImg top width="100%" src="/imgs/bg-masthead.jpg" />
+                    <CardImg top width="100%" src={windowShot} />
                     <CardBody>
                         <CardTitle>Accomodations</CardTitle>
                         <CardText>The Malenadu region is famous for its rains, hills, streams, waterfalls, the rolling mist, lush green forests and great food. Coupled with large, well run coffee plantations dating back over a century.<br/><br/></CardText>

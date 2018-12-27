@@ -1,4 +1,5 @@
 import React from 'react';
+import BalurBirdLogo from "./../../imgs/BalurBirdLogo.png";
 import {
   Collapse,
   Navbar,
@@ -28,19 +29,19 @@ export default class component extends React.Component {
     return (
       <div>
         <Navbar fixed="top" color="light" light expand="md">
-          <a href="/"><img src="/imgs/BalurBirdLogo.png" style={{maxHeight:"30px", paddingRight:'6px'}}/></a>        
+          <a href="/"><img src={BalurBirdLogo} style={{maxHeight:"30px", paddingRight:'6px'}}/></a>        
           <NavbarBrand href="/">Balur Estate</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Coffee/">Coffee</NavLink>
+                <NavLink href="/Coffee/"><span style={{fontSize:"22px"}}>Coffee</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Conservation/">Conservation</NavLink>
+                <NavLink href="/Conservation/"><span style={{fontSize:"22px"}}>Conservation</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Accomodation/">Accomodation</NavLink>
+                <NavLink href="/Accomodation/"><span style={{fontSize:"22px"}}>Accomodation</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
