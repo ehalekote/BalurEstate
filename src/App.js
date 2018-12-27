@@ -113,9 +113,9 @@ class App extends Component {
         <Route path="/" component={Navbar} />
 
         {/* Home */}
-        <Route path="/" exact component={MainCover} />
-        <Route path="/" exact component={MainChoicePanel} />
-        <Route path="/" exact component={MainVideo} />
+        <Route path="/BalurEstate/" exact component={MainCover} />
+        <Route path="/BalurEstate/" exact component={MainChoicePanel} />
+        <Route path="/BalurEstate/" exact component={MainVideo} />
 
         {/* Coffee */}
         <Route 
