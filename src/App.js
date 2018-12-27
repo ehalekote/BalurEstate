@@ -119,11 +119,11 @@ class App extends Component {
 
         {/* Coffee */}
         <Route 
-                  path="BalurEstate/Coffee" exact 
+                  path="/Coffee" exact 
                   render={(props) => <SecondaryCover text="Coffee" cover="/imgs/coffee_dry.JPG" />}
         />
         <Route 
-                  path="BalurEstate/Coffee" exact 
+                  path="/Coffee" exact 
                   render={(props) => <SecondaryContent text={text_Coffee} col1={col1_Coffee} />}
         />
       

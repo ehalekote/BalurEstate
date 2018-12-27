@@ -35,13 +35,13 @@ export default class component extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Coffee/"><span style={{fontSize:"22px"}}>Coffee</span></NavLink>
+                <NavLink href="/Coffee"><span style={{fontSize:"22px"}}>Coffee</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Conservation/"><span style={{fontSize:"22px"}}>Conservation</span></NavLink>
+                <NavLink href="/Conservation"><span style={{fontSize:"22px"}}>Conservation</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Accomodation/"><span style={{fontSize:"22px"}}>Accomodation</span></NavLink>
+                <NavLink href="/Accomodation"><span style={{fontSize:"22px"}}>Accomodation</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
