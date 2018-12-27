@@ -122,16 +122,16 @@ class App extends Component {
     let col1_Accomodation=[sideShot, windowShot, hall]
     
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop>
         <div className="App">
         
         <Route path="/" component={Navbar} />
 
         {/* Home */}
-        <Route path="/BalurEstate" exact component={MainCover} />
-        <Route path="/BalurEstate" exact component={MainChoicePanel} />
-        <Route path="/BalurEstate" exact component={MainVideo} />
+        <Route path="/" exact component={MainCover} />
+        <Route path="/" exact component={MainChoicePanel} />
+        <Route path="/" exact component={MainVideo} />
 
         {/* Coffee */}
         <Route 
