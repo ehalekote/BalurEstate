@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5973e4c8c41b8c6d9725",
-    "url": "/BalurEstate/static/css/main.02a5cbd5.chunk.css"
+    "revision": "63d93a170a9accb7a5cdd5d0cf183234",
+    "url": "/BalurEstate/static/media/coffeeCups.63d93a17.jpg"
   },
   {
-    "revision": "5973e4c8c41b8c6d9725",
-    "url": "/BalurEstate/static/js/main.5973e4c8.chunk.js"
+    "revision": "ffb82b152c8563eb2cdc",
+    "url": "/BalurEstate/static/css/main.69a5dbda.chunk.css"
   },
   {
-    "revision": "78bdcdd212f7a29d04f6",
-    "url": "/BalurEstate/static/css/1.5367cab5.chunk.css"
+    "revision": "5930cf8066906a7e9c8f5951c93dd9d1",
+    "url": "/BalurEstate/static/media/videoBackground.5930cf80.png"
   },
   {
-    "revision": "78bdcdd212f7a29d04f6",
-    "url": "/BalurEstate/static/js/1.78bdcdd2.chunk.js"
+    "revision": "3ea63bea0f9f2ebe8220",
+    "url": "/BalurEstate/static/js/1.3ea63bea.chunk.js"
   },
   {
     "revision": "6ddfc8cdd290499a9434",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/coffeeFlower.8a0894c5.jpg"
   },
   {
-    "revision": "63d93a170a9accb7a5cdd5d0cf183234",
-    "url": "/BalurEstate/static/media/coffeeCups.63d93a17.jpg"
+    "revision": "ffb82b152c8563eb2cdc",
+    "url": "/BalurEstate/static/js/main.ffb82b15.chunk.js"
   },
   {
     "revision": "c27d9accec494cd562c6376353f21ad6",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/mainBackground.b7d94d02.JPG"
   },
   {
-    "revision": "5930cf8066906a7e9c8f5951c93dd9d1",
-    "url": "/BalurEstate/static/media/videoBackground.5930cf80.png"
+    "revision": "3ea63bea0f9f2ebe8220",
+    "url": "/BalurEstate/static/css/1.c2f78444.chunk.css"
   },
   {
-    "revision": "3d705a769e99eee1705220c36c199582",
+    "revision": "5d8a51de78927eb96956b2aadbe8720c",
     "url": "/BalurEstate/index.html"
   }
 ];
