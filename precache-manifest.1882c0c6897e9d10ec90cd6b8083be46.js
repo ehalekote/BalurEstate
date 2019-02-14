@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/coffeeCups.63d93a17.jpg"
   },
   {
-    "revision": "ffb82b152c8563eb2cdc",
+    "revision": "30a0e50084fee17c7db2",
     "url": "/BalurEstate/static/css/main.69a5dbda.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/videoBackground.5930cf80.png"
   },
   {
-    "revision": "3ea63bea0f9f2ebe8220",
-    "url": "/BalurEstate/static/js/1.3ea63bea.chunk.js"
+    "revision": "bb738041d6ac3f878ec4",
+    "url": "/BalurEstate/static/js/1.bb738041.chunk.js"
   },
   {
     "revision": "6ddfc8cdd290499a9434",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/coffeeFlower.8a0894c5.jpg"
   },
   {
-    "revision": "ffb82b152c8563eb2cdc",
-    "url": "/BalurEstate/static/js/main.ffb82b15.chunk.js"
+    "revision": "30a0e50084fee17c7db2",
+    "url": "/BalurEstate/static/js/main.30a0e500.chunk.js"
   },
   {
     "revision": "c27d9accec494cd562c6376353f21ad6",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/mainBackground.b7d94d02.JPG"
   },
   {
-    "revision": "3ea63bea0f9f2ebe8220",
+    "revision": "bb738041d6ac3f878ec4",
     "url": "/BalurEstate/static/css/1.c2f78444.chunk.css"
   },
   {
-    "revision": "5d8a51de78927eb96956b2aadbe8720c",
+    "revision": "53e4ccda02d2fb1769c82e2ec7990b9e",
     "url": "/BalurEstate/index.html"
   }
 ];
