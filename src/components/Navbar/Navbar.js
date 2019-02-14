@@ -30,7 +30,7 @@ export default class component extends React.Component {
       <div>
         <Navbar fixed="top" color="light" light expand="md">
           <a href="/"><img src={BalurBirdLogo} style={{maxHeight:"30px", paddingRight:'6px'}}/></a>        
-          <NavbarBrand href="/">Balur Estate</NavbarBrand>
+          <NavLink to="/"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Balur Estate</span></NavLink>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
