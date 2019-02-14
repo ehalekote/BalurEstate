@@ -7,8 +7,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   } from 'reactstrap';
+import {NavLink} from 'react-router-dom'
 
 export default class component extends React.Component {
   constructor(props) {
@@ -35,13 +35,13 @@ export default class component extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Coffee"><span style={{fontSize:"22px"}}>Coffee</span></NavLink>
+                <NavLink to="/Coffee"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Coffee</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Conservation"><span style={{fontSize:"22px"}}>Conservation</span></NavLink>
+                <NavLink to="/Conservation"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Conservation</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Accomodation"><span style={{fontSize:"22px"}}>Accomodation</span></NavLink>
+                <NavLink to="/Accomodation"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Accomodation</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
