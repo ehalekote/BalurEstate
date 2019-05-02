@@ -9,13 +9,18 @@ import conservation3 from "./imgs/conservation3.jpg"
 import night from "./imgs/night.jpeg"
 import coffeeFlower from "./imgs/coffeeFlower.jpg"
 import coffeeHands from "./imgs/coffeeHands.jpg"
-import coffeeCups from "./imgs/coffeeCups.jpg"
+import green1 from "./imgs/green1.jpg"
+// import green2 from "./imgs/green2.jpg"
+import cardamom from "./imgs/cardamom.jpg"
 import conservation1  from "./imgs/conservation1.jpg"
+import atmosphere  from "./imgs/atmosphere.jpg"
 import waterfall  from "./imgs/waterfall.jpg"
 import leaves  from "./imgs/leaves.jpg"
 import sideShot  from "./imgs/sideShot.jpeg"
 import windowShot  from "./imgs/windowShot.JPG"
 import hall  from "./imgs/hall.jpg"
+import diningRoom  from "./imgs/diningRoom.jpg"
+import bedroom  from "./imgs/bedroom.jpg"
 
 
 
@@ -58,7 +63,7 @@ class App extends Component {
       </div>
     );
 
-    let col1_Coffee=[coffeeFlower,coffeeHands,coffeeCups]
+    let col1_Coffee=[coffeeFlower,green1,coffeeHands,cardamom]
 
   {/*Conservation*/}
     let text_Conservation = (
@@ -94,7 +99,7 @@ class App extends Component {
     );
 
     
-    let col1_Conservation=[conservation1,waterfall,leaves]
+    let col1_Conservation=[atmosphere,waterfall,conservation1]
     
   {/*Accomodation*/}
     let text_Accomodation = (
@@ -113,13 +118,15 @@ class App extends Component {
 
           <p>Balur Estate has an old Heritage Bungalow from 1853, and recently renovated suites built to the same spec. We’re proud of our heritage, our hard work, our traditions and would love to share the same with you. We work with Linger to welcome guests who might like to experience the natural abundance that the place provides, or even learn a thing or two about the plantation and its activities. There are numerous old temples in the area, and its perfect for those who seek the outdoors on a good trek, run or a bike-ride.</p>
 
-          <p><b>For reservations please reach out at stay@linger.in or call +91-959-005-0001</b></p>
+          <p style={{paddingBottom:"5%"}} ><b>For reservations please reach out at stay@linger.in or call +91-959-005-0001</b></p>
+
+          <PointsOfInterest />
 
       </div>
     );
 
     
-    let col1_Accomodation=[sideShot, windowShot, hall]
+    let col1_Accomodation=[sideShot, diningRoom, hall,bedroom]
     
     return (
       <Router basename={process.env.PUBLIC_URL}>
@@ -131,7 +138,8 @@ class App extends Component {
         {/* Home */}
         <Route path="/" exact component={MainCover} />
         <Route path="/" exact component={MainChoicePanel} />
-        <Route path="/" exact component={MainVideo} />
+        
+        {/* <Route path="/" exact component={MainVideo} /> */}
 
         {/* Coffee */}
         <Route 
@@ -156,14 +164,14 @@ class App extends Component {
         {/* Accomodation */}
         <Route 
                   path="/Accomodation" exact 
-                  render={(props) => <SecondaryCover text="Accomodation" cover={night} />}
+                  render={(props) => <SecondaryCover text="Ecotourism" cover={night} />}
         />
         <Route 
                   path="/Accomodation" exact 
                   render={(props) => <SecondaryContent text={text_Accomodation} col1={col1_Accomodation}  />}
         />
 
-        <Route path="/Accomodation" component={PointsOfInterest} />
+        {/* <Route path="/Accomodation" component={PointsOfInterest} /> */}
         
         <Route path="/" component={Footer} />
 

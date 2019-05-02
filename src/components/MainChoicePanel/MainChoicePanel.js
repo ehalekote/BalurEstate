@@ -72,7 +72,7 @@ class MainChoicePanel extends React.Component {
                 <Card className="card">
                     <CardImg top width="100%" src={windowShot} />
                     <CardBody>
-                        <CardTitle>Accomodations</CardTitle>
+                        <CardTitle>Ecotourism</CardTitle>
                         <CardText>The Malenadu region is famous for its rains, hills, streams, waterfalls, the rolling mist, lush green forests and great food. Coupled with large, well run coffee plantations dating back over a century.<br/><br/></CardText>
                         <Button onClick={() => {this.routeChange('Accomodation')}} color="danger">Learn More</Button>
                     </CardBody>

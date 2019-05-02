@@ -41,7 +41,7 @@ export default class component extends React.Component {
                 <NavLink to="/Conservation"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Conservation</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/Accomodation"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Accomodation</span></NavLink>
+                <NavLink to="/Accomodation"><span style={{color:"black",fontSize:"22px",paddingLeft:"6px", paddingRight:"6px"}}>Ecotourism</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
