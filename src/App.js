@@ -6,6 +6,7 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 //Images
 import coffee_dry from "./imgs/coffee_dry.JPG"
 import conservation3 from "./imgs/conservation3.jpg"
+import conservation4 from "./imgs/conservation4.jpg"
 import night from "./imgs/night.jpeg"
 import coffeeFlower from "./imgs/coffeeFlower.jpg"
 import coffeeHands from "./imgs/coffeeHands.jpg"
@@ -156,7 +157,7 @@ class App extends Component {
         {/* Conservation */}
         <Route 
                   path="/Conservation" exact 
-                  render={(props) => <SecondaryCover text="Conservation" cover={conservation3} />}
+                  render={(props) => <SecondaryCover text="Conservation" cover={conservation4} />}
         />
         <Route 
                   path="/Conservation" exact 
