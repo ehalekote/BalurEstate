@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "b406cad14614eb43abbf",
-    "url": "/BalurEstate/static/css/main.9e8c49de.chunk.css"
+    "revision": "129aedfabc8695da8f30",
+    "url": "/BalurEstate/static/css/main.03c9b741.chunk.css"
   },
   {
-    "revision": "b406cad14614eb43abbf",
-    "url": "/BalurEstate/static/js/main.b406cad1.chunk.js"
+    "revision": "129aedfabc8695da8f30",
+    "url": "/BalurEstate/static/js/main.129aedfa.chunk.js"
   },
   {
-    "revision": "72479d7fde1f7cd847c8",
-    "url": "/BalurEstate/static/css/1.4cc6b7d8.chunk.css"
+    "revision": "07eb00cbfd31a9f2b3b9",
+    "url": "/BalurEstate/static/css/1.128c4a81.chunk.css"
   },
   {
-    "revision": "72479d7fde1f7cd847c8",
-    "url": "/BalurEstate/static/js/1.72479d7f.chunk.js"
+    "revision": "07eb00cbfd31a9f2b3b9",
+    "url": "/BalurEstate/static/js/1.07eb00cb.chunk.js"
   },
   {
     "revision": "6ddfc8cdd290499a9434",
     "url": "/BalurEstate/static/js/runtime~main.6ddfc8cd.js"
   },
   {
-    "revision": "9c3b36dd25a1824f334edba0282a9f7c",
-    "url": "/BalurEstate/static/media/conservation3.9c3b36dd.jpg"
-  },
-  {
     "revision": "aeaa7b37c3161283954f03d75e910c5c",
     "url": "/BalurEstate/static/media/coffeeHands.aeaa7b37.jpg"
+  },
+  {
+    "revision": "9c3b36dd25a1824f334edba0282a9f7c",
+    "url": "/BalurEstate/static/media/conservation3.9c3b36dd.jpg"
   },
   {
     "revision": "8dd18a4ab30b5c37970f2b91b1e8f78d",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "40a7a40c5781f983e9803077943e3b0f",
     "url": "/BalurEstate/static/media/coffee_dry.40a7a40c.JPG"
+  },
+  {
+    "revision": "c8beedcd7f5595be4509e347719795fb",
+    "url": "/BalurEstate/static/media/conservation4.c8beedcd.jpg"
   },
   {
     "revision": "aa5f72a729d69b60015cb130715ee500",
@@ -88,10 +92,6 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/videoBackground.5930cf80.png"
   },
   {
-    "revision": "a464c2efca763180d3cc420f8fa680ee",
-    "url": "/BalurEstate/static/media/leaves.a464c2ef.jpg"
-  },
-  {
     "revision": "ddda6ca4fa863758d63f9ec8e4be42d1",
     "url": "/BalurEstate/static/media/MainLogoFront.ddda6ca4.png"
   },
@@ -100,7 +100,11 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/mainBackground.b7d94d02.JPG"
   },
   {
-    "revision": "9a78148f095ff523fb591d2e9acac29d",
+    "revision": "a464c2efca763180d3cc420f8fa680ee",
+    "url": "/BalurEstate/static/media/leaves.a464c2ef.jpg"
+  },
+  {
+    "revision": "943583882f75a96a50f15b37a998ad1a",
     "url": "/BalurEstate/index.html"
   }
 ];
