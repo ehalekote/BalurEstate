@@ -47,7 +47,7 @@ class App extends Component {
 
           <p>Balur estate was formally started in the 1840s by the partnership of Thomas Cannon, Col. Onslow and R.G. Allardyce. Today, it is under the responsible stewardship of fourth generation coffee planters.</p>
 
-          <p>BIndia is the only country that grows all of its coffee under the canopy of native trees, there by preserving the local ecosystem and maintaining it’s biodiversity. “Shade grown coffee” plantations harbor a diversity of plants, insects, and animals that make up the ecologically sensitive Western Ghats region.</p>
+          <p>India is the only country that grows all of its coffee under the canopy of native trees, there by preserving the local ecosystem and maintaining it’s biodiversity. “Shade grown coffee” plantations harbor a diversity of plants, insects, and animals that make up the ecologically sensitive Western Ghats region.</p>
 
           <p>Balur estate is nestled on the slopes of the western ghats at over 3000 feet elevation.The estate produces quality Arabica and Robusta coffee along with other crops like pepper, cocao, nutmeg and cardamom.</p>
 
@@ -62,13 +62,15 @@ class App extends Component {
         <h2>Our Commitment ot Quality Coffee</h2>
 
           <p>State of the art machinery and skilled workers are employed to ensure coffee that is consistently defect free. We follow multiple post harvesting processing methods like wet processing, semi washed and naturals based on client requirements.</p>
+          
           <p>Working closely with clients and industry experts from across the globe, we produce traceable micro-lots, using unique techniques such as yeast fermentation, carbon maceration, and natural maceration.Even with the most proven methods and techniques in place, we are constantly exploring different methods of coffee processing.The phrase “quality from crop to cup” best describes the planning and operation of Balur estate coffee.</p>
 
+          <p><b>For green and roasted coffee purchase  please email coffee@balurestate.com</b></p>
 
       </div>
     );
 
-    let col1_Coffee=[coffeeFlower,green1,coffeeHands,cardamom]
+    let col1_Coffee=[coffeeFlower,green1,coffeeHands]
 
   {/*Conservation*/}
     let text_Conservation = (
@@ -77,7 +79,7 @@ class App extends Component {
 
           <p>Balur Estate lies amongst the Sahyadri Range of the Western Ghats, recently declared a UNESCO World Heritage site and home to a huge variety of flora and fauna – some unique to this part of the world. Not only has the coffee at Balur Estate always been grown in a rainforest friendly plantation,but  the local traditions also embrace a deep respect for nature and a culture of co-existence with life around us. At the estate, you wake up to agricultural practice that puts the environment first. Numerous streams, notably the venerated Hemavathy River, originate just above the estate, and ensure a perennial water supply along with beautiful landscapes and waterfalls.</p>
 
-          <p>“The true meaning of life is to plant trees, under whose shade you do not expect to sit.”</p>
+          <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“The true meaning of life is to plant trees, under whose shade you do not expect to sit.”</b></p>
 
           <p>The Balur Estate management is committed to restoring and enhancing the land, water and wildlife through habitat management and wildlife conservation. Our two decades of stewardship has been about returning the land and water to its former glory, restoring what was lost. Along this journey we were blessed to have the technical expertise of entomologists Dr. A. K. Chakravarthy, and Dr. N.E. Thyagaraj.</p>
 
@@ -88,8 +90,6 @@ class App extends Component {
           <p>We have been working on conservation projects to address issues like soil erosion, nutrient runoff, pesticide drift and loss of wildlife habitats. Our technical advisors help us maintain existing practices and also bring new ones such as integrated pest management, planting native trees to improve soil quality and wildlife habitat, farm composting of organic waste, precision nutrient application, and natural resource conservation.</p>
 
           <p>Looking to the future, through research, training, and education we hope to educate and exchange our knowledge with youth groups, biologists, policy makers and environmentalist. Our vision is to leave this land in a better condition than when we found it so that the future generations can enjoy the beauty of the Western Ghats.</p>
-
-          <p>For green and roasted coffee purchase  please email:</p>
 
       </div>
     );
@@ -128,7 +128,7 @@ class App extends Component {
     );
 
     
-    let col1_Accomodation=[sideShot, diningRoom, hall,bedroom]
+    let col1_Accomodation=[sideShot, hall,bedroom,diningRoom]
     
     return (
       <Router basename={process.env.PUBLIC_URL}>

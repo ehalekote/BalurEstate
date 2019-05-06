@@ -3,6 +3,11 @@
 	background-position: center center;
 }
 
+.SecondaryContent h2 {
+	font-size: 150%;
+	font-style: italic;
+}
+
 /* Laptop and Up */
 @media (min-width: 1025px){
     .SecondaryContent{
@@ -13,11 +18,6 @@
 
 	.SecondaryContent p {
 		font-size: 110%;
-	}
-
-	.SecondaryContent h2 {
-		font-size: 220%;
-		font-style: italic;
 	}
 }
 
@@ -32,12 +32,6 @@
 	.SecondaryContent p {
 		font-size: 105%;
 	}
-
-	.SecondaryContent h2 {
-		font-size: 220%;
-		font-style: italic;
-
-	}
 }
 
 /* Phones */
@@ -50,11 +44,6 @@
 
 	.SecondaryContent p {
 		font-size: 100%;
-	}
-
-	.SecondaryContent h2 {
-		font-size: 220%;
-		font-style: italic;
 	}
 }
 

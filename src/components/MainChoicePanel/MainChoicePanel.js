@@ -52,7 +52,7 @@ class MainChoicePanel extends React.Component {
                 <Card className="card">
                     <CardImg top width="100%" src={coffeeHands} />
                     <CardBody>
-                        <CardTitle>Coffee</CardTitle>
+                        <CardTitle><i>Coffee</i></CardTitle>
                         <CardText>Chikmagalur was the scene of all the action that saw India getting introduced to coffee. In the 17th century A.D. coffee first arrived in India when Baba Budan brought 7 seeds from Mocha, Yemen.<br/><br/></CardText>
                         <Button onClick={() => {this.routeChange('Coffee')}} color="danger">Learn More</Button>
                     </CardBody>
@@ -62,7 +62,7 @@ class MainChoicePanel extends React.Component {
                 <Card className="card">
                     <CardImg top width="100%" src={conservation3} />
                     <CardBody>
-                        <CardTitle>Conservation</CardTitle>
+                        <CardTitle><i>Conservation</i></CardTitle>
                         <CardText>Balur Estate lies amongst the Sahyadri Range of the Western Ghats, recently declared a UNESCO World Heritage site and home to a huge variety of flora and fauna.<br/><br/></CardText>
                         <Button onClick={() => {this.routeChange('Conservation')}} color="danger">Learn More</Button>
                     </CardBody>
@@ -72,7 +72,7 @@ class MainChoicePanel extends React.Component {
                 <Card className="card">
                     <CardImg top width="100%" src={windowShot} />
                     <CardBody>
-                        <CardTitle>Ecotourism</CardTitle>
+                        <CardTitle><i>Ecotourism</i></CardTitle>
                         <CardText>The Malenadu region is famous for its rains, hills, streams, waterfalls, the rolling mist, lush green forests and great food. Coupled with large, well run coffee plantations dating back over a century.<br/><br/></CardText>
                         <Button onClick={() => {this.routeChange('Accomodation')}} color="danger">Learn More</Button>
                     </CardBody>

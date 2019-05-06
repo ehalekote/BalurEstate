@@ -23,13 +23,15 @@
 
     color: white;
 
+    font-size: 450%;
+
 }
 
 /* Laptop and Up */
 @media (min-width: 1025px){
     .secondaryHomeLogo{
         max-width: 40%;
-        font-size: 700%;
+        /* font-size: 700%; */
     }
 }
 
@@ -37,7 +39,7 @@
 @media only screen and (max-width: 1024px){
     .secondaryHomeLogo{
         max-width: 50%;
-        font-size: 550%;
+        /* font-size: 550%; */
     }
 }
 
@@ -45,6 +47,6 @@
 @media only screen and (max-width: 767px){
     .secondaryHomeLogo{
         max-width: 70%;
-        font-size: 450%;
+        /* font-size: 450%; */
     }
 }
