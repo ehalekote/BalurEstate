@@ -24,9 +24,9 @@ class Footer extends React.Component {
                 <Col>
                     <p><i><span className="title">Address:</span></i> <br/>Balur Estate <br/> Javali Post <br/> Chickmaglur district <br/> Karnataka, India </p>
 
-                    <p><i><span className="title">Stay Inquiries:</span></i> <br/>stay@linger.in</p>
-
                     <p><i><span className="title">Business Inquiries:</span></i> <br/>coffee@balurestate.com</p>
+
+                    <p><i><span className="title">Stay Inquiries:</span></i> <br/>stay@linger.in</p>
 
                     <p><i><span className="title">Phone:</span></i> <br/>+91-95900-50001</p>
                 </Col>
