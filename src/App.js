@@ -47,23 +47,23 @@ class App extends Component {
 
           <p>Balur estate was formally started in the 1840s by the partnership of Thomas Cannon, Col. Onslow and R.G. Allardyce. Today, it is under the responsible stewardship of fourth generation coffee planters.</p>
 
-          <p>India is the only country that grows all of its coffee under the canopy of native trees, there by preserving the local ecosystem and maintaining it’s biodiversity. “Shade grown coffee” plantations harbor a diversity of plants, insects, and animals that make up the ecologically sensitive Western Ghats region.</p>
+          <p>India is the only country that grows all of its coffee under the canopy of native trees, thereby preserving the local ecosystem and maintaining it’s biodiversity. “Shade grown coffee” plantations harbor a diversity of plants, insects, and animals that make up the ecologically sensitive Western Ghats region.</p>
 
-          <p>Balur estate is nestled on the slopes of the western ghats at over 3000 feet elevation.The estate produces quality Arabica and Robusta coffee along with other crops like pepper, cocao, nutmeg and cardamom.</p>
+          <p>Balur estate is nestled on the slopes of the western ghats at over 3000 feet elevation.The estate produces quality Arabica and Robusta coffee along with other crops like pepper, cocao, nutmeg, and cardamom.</p>
 
         <br/>
 
         <h2>What Makes Our Coffee So Unique</h2>
 
-          <p>Our farm is unique in its location and elevation—these two conditions help us create exceptional coffee.Like fine wine, our coffee is processed with the utmost attention at each processing stage from picking to milling. We still pick every bean by hand, manually harvesting only when the fruits are cherry red, and using no mechanical harvesting that would mix bitter green beans in with matured red fruit.</p>
+          <p>Our farm is unique in its location and elevation—these two conditions help us create exceptional coffee. Like fine wine, our coffee is processed with the utmost attention at each processing stage from picking to milling. We still pick every bean by hand, manually harvesting only when the fruits are cherry red, and use no mechanical harvesting that would mix bitter green beans in with matured red fruit.</p>
         
         <br/>
 
-        <h2>Our Commitment ot Quality Coffee</h2>
+        <h2>Our Commitment to Quality Coffee</h2>
 
-          <p>State of the art machinery and skilled workers are employed to ensure coffee that is consistently defect free. We follow multiple post harvesting processing methods like wet processing, semi washed and naturals based on client requirements.</p>
+          <p>State of the art machinery and skilled workers are employed to ensure coffee that is consistently defect free. We follow multiple post harvesting processing methods like wet processing, semi washed, and naturals based on client requirements.</p>
           
-          <p>Working closely with clients and industry experts from across the globe, we produce traceable micro-lots, using unique techniques such as yeast fermentation, carbon maceration, and natural maceration.Even with the most proven methods and techniques in place, we are constantly exploring different methods of coffee processing.The phrase “quality from crop to cup” best describes the planning and operation of Balur estate coffee.</p>
+          <p>Working closely with clients and industry experts from across the globe, we produce traceable micro-lots, using unique techniques such as yeast fermentation, carbon maceration, and natural maceration.Even with the most proven methods and techniques in place, we are constantly exploring different methods of coffee processing. The phrase “quality from crop to cup” best describes the planning and operation of Balur estate coffee.</p>
 
           <p>For green and roasted coffee purchase  please email coffee@balurestate.com</p>
 
@@ -77,19 +77,19 @@ class App extends Component {
       <div>
         <h2>A History of Conservation</h2>
 
-          <p>Balur Estate lies amongst the Sahyadri Range of the Western Ghats, recently declared a UNESCO World Heritage site and home to a huge variety of flora and fauna – some unique to this part of the world. Not only has the coffee at Balur Estate always been grown in a rainforest friendly plantation,but  the local traditions also embrace a deep respect for nature and a culture of co-existence with life around us. At the estate, you wake up to agricultural practice that puts the environment first. Numerous streams, notably the venerated Hemavathy River, originate just above the estate, and ensure a perennial water supply along with beautiful landscapes and waterfalls.</p>
+          <p>Balur Estate lies amongst the Sahyadri Range of the Western Ghats, recently declared a UNESCO World Heritage site and home to a huge variety of flora and fauna –some unique to this part of the world. Not only has the coffee at Balur Estate always been grown in a rainforest friendly plantation, but  the local traditions also embrace a deep respect for nature and a culture of co-existence with life around us. At the estate, you wake up to agricultural practices that puts the environment first. Numerous streams, notably the  Hemavathy River, originate just above the estate and ensure a perennial water supply along with beautiful landscapes and waterfalls.</p>
 
           <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“The true meaning of life is to plant trees, under whose shade you do not expect to sit.”</b></p>
 
-          <p>The Balur Estate management is committed to restoring and enhancing the land, water and wildlife through habitat management and wildlife conservation. Our two decades of stewardship has been about returning the land and water to its former glory, restoring what was lost. Along this journey we were blessed to have the technical expertise of entomologists Dr. A. K. Chakravarthy, and Dr. N.E. Thyagaraj.</p>
+          <p>The Balur Estate management is committed to restoring and enhancing the land, water, and wildlife through habitat management and wildlife conservation. Our two decades of stewardship have been about returning the land and water to its former glory. Along this journey we have been blessed to have the technical expertise of entomologists Dr. A. K. Chakravarthy, and Dr. N.E. Thyagaraj.</p>
 
         <br/>
 
         <h2>A Green Future</h2>
 
-          <p>We have been working on conservation projects to address issues like soil erosion, nutrient runoff, pesticide drift and loss of wildlife habitats. Our technical advisors help us maintain existing practices and also bring new ones such as integrated pest management, planting native trees to improve soil quality and wildlife habitat, farm composting of organic waste, precision nutrient application, and natural resource conservation.</p>
+          <p>We have been working on conservation projects to address issues like soil erosion, nutrient runoff, pesticide drift, and loss of wildlife habitats. Our technical advisors help us maintain existing practices and also introduce new ones such as integrated pest management, planting native trees to improve soil quality and wildlife habitat, farm composting of organic waste, precision nutrient application, and natural resource conservation.</p>
 
-          <p>Looking to the future, through research, training, and education we hope to educate and exchange our knowledge with youth groups, biologists, policy makers and environmentalist. Our vision is to leave this land in a better condition than when we found it so that the future generations can enjoy the beauty of the Western Ghats.</p>
+          <p>Looking to the future through research, training, and education we hope to educate and exchange our knowledge with youth groups, biologists, policy makers, and environmentalist. Our vision is to leave this land in a better condition than we found it so that future generations can enjoy the beauty of the Western Ghats.</p>
 
       </div>
     );
@@ -102,9 +102,9 @@ class App extends Component {
       <div>
         <h2>A Beautiful Boutique Getaway</h2>
 
-          <p>The Malenadu region is famous for its rains, hills, streams, waterfalls, the rolling mist, lush green forests, and great food. Coupled with large well-run coffee plantations dating back over a century and a half and a low population density, this is the perfect place for travelers who seek leisure and tranquility</p>
+          <p>The Malenadu region is famous for its rains, hills, streams, waterfalls, the rolling mist, lush green forests, and great food. Coupled with large well-run coffee plantations dating back over a century and a half and a low population density, this is the perfect place for travelers who seek leisure and tranquility.</p>
 
-          <p>Balur Estate is a retreat for the rushed soul. It’s about doing things at your pace, doing them right, and in harmony with nature. Everything in the plantation happens for a reason, and has a meaning. The coffee, the stream, the hills, the house and even the furniture all speak the same thoughts – that the best things in life need patience, perseverance and time.</p>
+          <p>Balur Estate is a retreat for the rushed soul. It’s about doing things at your pace, doing them right, and in harmony with nature. Everything in the plantation happens for a reason and has a meaning. The coffee, the streams, the hills, the house, and even the furniture all speak the same thoughts – that the best things in life need patience, perseverance, and time.</p>
 
         <br/>
 
