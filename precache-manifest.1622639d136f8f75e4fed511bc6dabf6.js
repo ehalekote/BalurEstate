@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/conservation1.c27d9acc.jpg"
   },
   {
-    "revision": "cb6e2e6b3247ae04aa8e",
+    "revision": "5c935d0fdc813215059a",
     "url": "/BalurEstate/static/css/main.ed3b9fab.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/green1.473cffb2.jpg"
   },
   {
-    "revision": "cb6e2e6b3247ae04aa8e",
-    "url": "/BalurEstate/static/js/main.cb6e2e6b.chunk.js"
+    "revision": "5c935d0fdc813215059a",
+    "url": "/BalurEstate/static/js/main.5c935d0f.chunk.js"
   },
   {
     "revision": "a93f2fde342720279ce553e59b4a96ba",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/css/1.128c4a81.chunk.css"
   },
   {
-    "revision": "f45e7e9f35ea9b86ca70a923539690e2",
+    "revision": "ff9ef406d600812a1fed53dacbb02d5d",
     "url": "/BalurEstate/index.html"
   }
 ];
