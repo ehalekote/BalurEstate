@@ -65,7 +65,7 @@ class App extends Component {
           
           <p>Working closely with clients and industry experts from across the globe, we produce traceable micro-lots, using unique techniques such as yeast fermentation, carbon maceration, and natural maceration.Even with the most proven methods and techniques in place, we are constantly exploring different methods of coffee processing.The phrase “quality from crop to cup” best describes the planning and operation of Balur estate coffee.</p>
 
-          <p><b>For green and roasted coffee purchase  please email coffee@balurestate.com</b></p>
+          <p>For green and roasted coffee purchase  please email coffee@balurestate.com</p>
 
       </div>
     );
@@ -120,7 +120,7 @@ class App extends Component {
           <p>We’re proud of our heritage, our hard work, our traditions and would love to share them with you. We work with the “Linger Company” in Bangalore to welcome guests who want to experience Balur estate.Whether you want to learn about the plantation, visit the surrounding historical sites, or trek through natural beauty, there is something here for you. Your travel will support our small businesses and local economy. We are more than happy to help you customize your trip and accommodate your needs.
           </p>
 
-          <p style={{paddingBottom:"5%"}} ><b>For reservations please reach out at stay@linger.in or call +91-959-005-0001</b></p>
+          <p style={{paddingBottom:"5%"}} >For reservations please reach out at stay@linger.in or call +91-959-005-0001</p>
 
           <PointsOfInterest />
 
