@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "129aedfabc8695da8f30",
-    "url": "/BalurEstate/static/css/main.03c9b741.chunk.css"
+    "revision": "971258b325301a9dd4da",
+    "url": "/BalurEstate/static/css/main.f9325891.chunk.css"
   },
   {
-    "revision": "129aedfabc8695da8f30",
-    "url": "/BalurEstate/static/js/main.129aedfa.chunk.js"
+    "revision": "971258b325301a9dd4da",
+    "url": "/BalurEstate/static/js/main.971258b3.chunk.js"
   },
   {
-    "revision": "07eb00cbfd31a9f2b3b9",
+    "revision": "bbdba93f063c4ec38029",
     "url": "/BalurEstate/static/css/1.128c4a81.chunk.css"
   },
   {
-    "revision": "07eb00cbfd31a9f2b3b9",
-    "url": "/BalurEstate/static/js/1.07eb00cb.chunk.js"
+    "revision": "bbdba93f063c4ec38029",
+    "url": "/BalurEstate/static/js/1.bbdba93f.chunk.js"
   },
   {
     "revision": "6ddfc8cdd290499a9434",
@@ -50,10 +50,6 @@ self.__precacheManifest = [
   {
     "revision": "473cffb21efa84de8cc7913f2b3167a8",
     "url": "/BalurEstate/static/media/green1.473cffb2.jpg"
-  },
-  {
-    "revision": "e4efd9345a17edeaac4225c6047d06e0",
-    "url": "/BalurEstate/static/media/cardamom.e4efd934.jpg"
   },
   {
     "revision": "c27d9accec494cd562c6376353f21ad6",
@@ -100,11 +96,15 @@ self.__precacheManifest = [
     "url": "/BalurEstate/static/media/mainBackground.b7d94d02.JPG"
   },
   {
+    "revision": "e4efd9345a17edeaac4225c6047d06e0",
+    "url": "/BalurEstate/static/media/cardamom.e4efd934.jpg"
+  },
+  {
     "revision": "a464c2efca763180d3cc420f8fa680ee",
     "url": "/BalurEstate/static/media/leaves.a464c2ef.jpg"
   },
   {
-    "revision": "943583882f75a96a50f15b37a998ad1a",
+    "revision": "6dcb9757d14ef2738d66ff17e9f10abf",
     "url": "/BalurEstate/index.html"
   }
 ];
